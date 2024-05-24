@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.wapper{
+   background-color: blueviolet;
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height: 100vh;
+}
+.todo{
+   background-color: rgb(255, 255, 255);
+   max-width: 550px;
+   padding: 20px 40px;
+   border-radius: 28px;
+   margin-top: 50px;
+   border: 1px solid black;
+}
+.todo_title{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 23px;
+   
+}
+.todo_title-dic{
+   font-size: 22px;
+   font-weight: 800;
+   border-bottom:2px solid ;
+}
+.todo_title-img{
+   width: 70px;
+   height: 70px;
+}
+.todoTask-wapper{
+   display: flex;
+   align-items: center; 
+   width:400px;
+}
+.todoTask-text{
+   width: 80%;
+   margin-right: 1%;
+   height: 40px;
+   padding: 5px 10px;
+   border: 1px dashed;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+
+   outline: none;
+   
+}
+.todo-item_text{
+   pointer-events: none;
+   border: none;
+}
+.todo-item{
+   font-size: 23px;
+}
