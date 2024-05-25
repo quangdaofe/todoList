@@ -38,19 +38,29 @@
    display: flex;
    align-items: center; 
    width:400px;
+   border-bottom: 1px dashed black;
 }
 .todoTask-text{
    width: 80%;
    margin-right: 1%;
    height: 40px;
    padding: 5px 10px;
-   border: 1px dashed;
-   border-top: none;
-   border-left: none;
-   border-right: none;
-
-   outline: none;
-   
+   border: 1px none;
+}
+.add{
+   font-size: 30px;
+   cursor: pointer;
+   pointer-events: none;
+   color: rgb(110, 107, 107)
+}
+.add-active{
+  color: black;
+  pointer-events: inherit;
+}
+#time{
+   border: none !important;
+   background: none;
+   cursor: pointer;
 }
 .todo-item_text{
    pointer-events: none;
@@ -58,4 +68,40 @@
 }
 .todo-item{
    font-size: 23px;
+}
+.todo-list h3{
+   margin-top: 30px;
+   margin-bottom: 30px;
+   font-size: 20px;
+}
+.todo-item{
+   display: flex;
+   align-items: center;   
+   width: 400px;
+   margin-bottom: 12px;
+   border-bottom: 1px dashed black;
+}
+.todo-time{
+   font-size: 15px;
+   font-weight: 500;
+   width: 10%;
+}
+#item{
+   width: 80%;
+   font-size: 18px;
+}
+.delete-item{
+  cursor: pointer;
+
+}
+.edit-text{
+  cursor: pointer;  
+  margin-right: 15px;
+}
+#item{
+   border: none;
+   pointer-events: none;
+}
+.item__active{
+   pointer-events: inherit;
 }
